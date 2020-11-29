@@ -1,0 +1,78 @@
+Xft.lcdfilter:  lcddefault
+Xft.antialias:  1
+Xft.rgba:       rgba
+Xft.autohint:   0
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+Xft.dpi:        96
+
+XTerm.termName: xterm-256color
+XTerm.vt100.locale: true
+XTerm.vt100.savelines: 4096
+
+XTerm*internalBorder: 20
+
+! Cut and paste
+xterm*VT100.Translations: #override \
+    Shift <KeyPress> Insert: insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
+    Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
+
+!fonts
+!XTerm*faceName: boxxy
+!XTerm*faceSize: 14
+!XTerm*faceName: Cascadia Code
+!XTerm*faceSize: 10
+!XTerm*faceName: cherry
+!XTerm*faceSize: 10
+!XTerm*faceName: Cozette
+!XTerm*faceSize: 10
+!Xterm*faceName: Dina
+!XTerm*faceSize: 16
+!XTerm*faceName: Fantasque Sans Mono
+!XTerm*faceSize: 10
+!XTerm*faceName: Fira Mono
+!XTerm*faceSize: 9
+!XTerm*faceName: Gohu GohuFont
+!XTerm*faceSize: 9
+!XTerm*faceName: Iosevka
+!XTerm*faceSize: 9
+!XTerm*faceName: JetBrains Mono
+!XTerm*faceSize: 9
+!XTerm*faceName: Misc Tamsyn
+!XTerm*faceSize: 12
+!XTerm*faceName: Monospace
+!XTerm*faceSize: 10
+!XTerm*faceName: ProFont
+!XTerm*faceSize: 10
+!XTerm*faceName: scientifica
+!XTerm*faceSize: 9
+XTerm*faceName: Terminus
+XTerm*faceSize: 8
+!XTerm*faceName: Ubuntu Mono
+!XTerm*faceSize: 10
+!XTerm*faceName: Uw Ttyp0
+!XTerm*faceSize: 10
+!XTerm*font: -*-boxxy-*-*-normal-*-14-*-*-*-*-*-*-*
+!XTerm*font: -*-tamsyn-*-*-normal-*-12-*-*-*-*-*-*-*
+ 
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
