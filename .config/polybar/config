@@ -123,8 +123,9 @@ format-discharging-foreground = ${colors.color2}
 format-discharging-background = ${colors.background}
 format-discharging-padding = 1
 
-label-full  = ""
-format-full = <label-full>
+label-full  = %percentage%%
+format-full = <ramp-capacity> <label-full>
+format-full-foreground = ${colors.color2}
 
 ramp-capacity-0 = ""
 ramp-capacity-1 = ""
