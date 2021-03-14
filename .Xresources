@@ -19,44 +19,10 @@ xterm*VT100.Translations: #override \
     Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
     Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
-!fonts
-!XTerm*faceName: boxxy
-!XTerm*faceSize: 14
-!XTerm*faceName: Cascadia Code
-!XTerm*faceSize: 10
-!XTerm*faceName: cherry
-!XTerm*faceSize: 10
-!XTerm*faceName: Cozette
-!XTerm*faceSize: 10
-!Xterm*faceName: Dina
-!XTerm*faceSize: 16
-!XTerm*faceName: Fantasque Sans Mono
-!XTerm*faceSize: 10
-!XTerm*faceName: Fira Mono
-!XTerm*faceSize: 9
-!XTerm*faceName: Gohu GohuFont
-!XTerm*faceSize: 9
-!XTerm*faceName: Iosevka
-!XTerm*faceSize: 9
-!XTerm*faceName: JetBrains Mono
-!XTerm*faceSize: 9
-!XTerm*faceName: Misc Tamsyn
-!XTerm*faceSize: 12
-!XTerm*faceName: Monospace
-!XTerm*faceSize: 10
-!XTerm*faceName: ProFont
-!XTerm*faceSize: 10
-!XTerm*faceName: scientifica
-!XTerm*faceSize: 9
-XTerm*faceName: Terminus
-XTerm*faceSize: 8
-!XTerm*faceName: Ubuntu Mono
-!XTerm*faceSize: 10
-!XTerm*faceName: Uw Ttyp0
-!XTerm*faceSize: 10
-!XTerm*font: -*-boxxy-*-*-normal-*-14-*-*-*-*-*-*-*
-!XTerm*font: -*-tamsyn-*-*-normal-*-12-*-*-*-*-*-*-*
- 
+! Font
+XTerm*faceName: UW Ttyp0
+XTerm*faceSize: 10
+
 !Colors
 #define nord0 #2E3440
 #define nord1 #3B4252
