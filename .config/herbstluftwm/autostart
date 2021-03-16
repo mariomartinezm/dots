@@ -43,7 +43,7 @@ hc keybind $Mod-Return spawn ${TERMINAL:-xterm} # use your $TERMINAL with xterm 
 
 # keybindings for common aps
 hc keybind $Mod-e spawn xterm -e ranger
-hc keybind $Mod-r spawn rofi -show run -theme dracula
+hc keybind $Mod-r spawn rofi -show run -theme theme
 hc keybind XF86AudioRaiseVolume spawn amixer set Master 5%+
 hc keybind XF86AudioLowerVolume spawn amixer set Master 5%-
 hc keybind XF86AudioMute spawn amixer set Master toggle

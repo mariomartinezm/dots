@@ -7,8 +7,7 @@
 
 alias ls='ls --color=auto'
 alias dotfiles='/usr/bin/git --git-dir=/home/arpharazon/.dotfiles/ --work-tree=/home/arpharazon'
-PS1='[\[\033[1;36m\]\u@\h \[\033[1;35m\]\W\[\033[00m\]]\$ '
-#PS1='┌─[\[\e[01;32m\]\u\[\e[00m\]@\[\e[01;32m\]\h\[\e[00m\]:\[\e[1;34m\]\w\[\e[0m\]]\n└─╼ '
+PS1='[\[\e[01;33m\]\u\[\e[00m\]@\[\e[01;32m\]\h\[\e[00m\]:\[\e[1;34m\]\w\[\e[0m\]] '
 
 alias cat='bat'
 alias find='fd'
