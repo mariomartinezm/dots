@@ -1,38 +1,39 @@
 configuration {
-  modi:           "window,run,drun";
-  show-icons:     false;
-  font:           "Gohu GohuFont 9";
-  display-drun:   " ";
+  modi: "window,run,drun";
+  show-icons: false;
+  font: "Gohu GohuFont 9";
+  display-drun: " ";
   display-window: " ";
-  display-run:    "Apps";
+  display-run: "Apps";
 }
 
 * {
-  bg:     #2e3440;
-  bg-alt: #4B5466;
-  fg:     #d8dee9;
-  red:    #bf616a;
-  green:  #a3be8c;
-  yellow: #ebcb8b;
-  blue:   #81a1c1;
-  pink:   #b48ead;
-  cyan:   #88c0d0;
+  bg: #282a36;
+  bg-alt: #4d5169;
+  fg: #f8f8f2;
+  fg-alt: #282a36;
+  dracula-red: #ff5555;
+  dracula-green: #50fa7b;
+  dracula-yellow: #f1fa8c;
+  dracula-blue: #bd93f9;
+  dracula-pink: #ff79c6;
+  dracula-cyan: #8be9fd;
 
   background-color: @bg;
-  text-color      : @fg;
+  text-color: @fg;
 
-  border:  0;
-  lines:   8;
+  border: 0;
+  lines: 8;
   padding: 0;
-  margin:  0;
+  margin: 0;
   spacing: 0;
 }
 
 window {
-  width:        60%;
+  width: 60%;
   transparency: "real";
-  border:       1px;
-  border-color: @blue;
+  border: 1px;
+  border-color: @dracula-blue;
 }
 
 mainbox {
@@ -45,17 +46,17 @@ inputbar {
 }
 
 prompt {
-  background-color: @blue;
+  background-color: @dracula-blue;
   margin: 5px;
   text-color: @bg;
   padding: 12px;
 }
 
 entry {
-  background-color: #3b4252;
+  background-color: #353956;
   margin: 5px;
   padding: 12px;
-  text-color: @blue;
+  text-color: @dracula-blue;
 }
 
 listview {
@@ -75,6 +76,6 @@ element {
 element selected {
   background-color: @bg-alt;
   border: 0 0 0 5px;
-  border-color: @blue;
-  text-color: @blue;
+  border-color: @dracula-blue;
+  text-color: @dracula-blue;
 }
