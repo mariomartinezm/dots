@@ -154,7 +154,7 @@ hc set frame_normal_opacity 20
 hc set frame_active_opacity 20
 hc set frame_gap 8
 
-hc attr theme.active.color $color3
+hc attr theme.active.color $color4
 hc attr theme.normal.color $bg_color
 hc attr theme.urgent.color $color9
 hc attr theme.inner_width 1
