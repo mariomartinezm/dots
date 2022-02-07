@@ -8,15 +8,10 @@ configuration {
 }
 
 * {
-  bg:     #2e3440;
-  bg-alt: #4B5466;
-  fg:     #d8dee9;
-  red:    #bf616a;
-  green:  #a3be8c;
-  yellow: #ebcb8b;
-  blue:   #81a1c1;
-  pink:   #b48ead;
-  cyan:   #88c0d0;
+  bg:     #f9f9f9;
+  bg-alt: #f4efef;
+  fg:     #515151;
+  highlight:   #aac7b3;
 
   background-color: @bg;
   text-color      : @fg;
@@ -32,7 +27,7 @@ window {
   width:        60%;
   transparency: "real";
   border:       1px;
-  border-color: @blue;
+  border-color: @highlight;
 }
 
 mainbox {
@@ -45,17 +40,17 @@ inputbar {
 }
 
 prompt {
-  background-color: @blue;
+  background-color: @highlight;
   margin: 5px;
   text-color: @bg;
   padding: 12px;
 }
 
 entry {
-  background-color: #3b4252;
+  background-color: @bg-alt;
   margin: 5px;
   padding: 12px;
-  text-color: @blue;
+  text-color: @highlight;
 }
 
 listview {
@@ -75,8 +70,8 @@ element {
 element selected {
   background-color: @bg-alt;
   border: 0 0 0 5px;
-  border-color: @blue;
-  text-color: @blue;
+  border-color: @highlight;
+  text-color: @highlight;
 }
 
 element-text {
