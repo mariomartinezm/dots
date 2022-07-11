@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias dotfiles='/usr/bin/git --git-dir=/home/arpharazon/.dotfiles/ --work-tree=/home/arpharazon'
+alias dotfiles='/usr/bin/git --git-dir=/home/mariomm/.dotfiles/ --work-tree=/home/mariomm'
 PS1='[\[\e[01;33m\]\u\[\e[00m\]@\[\e[01;32m\]\h\[\e[00m\]:\[\e[1;34m\]\w\[\e[0m\]] '
 
 alias cat='bat'
