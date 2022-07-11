@@ -47,6 +47,8 @@ hc keybind $Mod-r spawn rofi -show run -theme theme
 hc keybind XF86AudioRaiseVolume spawn amixer set Master 5%+
 hc keybind XF86AudioLowerVolume spawn amixer set Master 5%-
 hc keybind XF86AudioMute spawn amixer set Master toggle
+hc keybind XF86MonBrightnessDown spawn xbacklight -dec 10
+hc keybind XF86MonBrightnessUp spawn xbacklight -inc 10
 
 # basic movement
 # focusing clients
@@ -142,7 +144,7 @@ color15=$(get_color 'color15:')
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 hc set frame_border_active_color $color4
-hc set frame_border_normal_color $color8
+hc set frame_border_normal_color $frame_color
 hc set frame_bg_normal_color $frame_color
 hc set frame_bg_active_color $frame_color
 hc set frame_border_width 1
@@ -154,7 +156,7 @@ hc set frame_active_opacity 20
 hc set frame_gap 8
 
 hc attr theme.active.color $color4
-hc attr theme.normal.color $color8
+hc attr theme.normal.color $bg_color
 hc attr theme.urgent.color $color9
 hc attr theme.inner_width 1
 hc attr theme.inner_color $bg_color
