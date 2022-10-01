@@ -1,22 +1,22 @@
 configuration {
   modi:           "window,run,drun";
   show-icons:     false;
-  font:           "Gohu GohuFont 9";
+  font:           "Noto Sans Bold 10";
   display-drun:   " ";
   display-window: " ";
   display-run:    "Apps";
 }
 
 * {
-  bg:     #2e3440;
-  bg-alt: #4B5466;
-  fg:     #d8dee9;
-  red:    #bf616a;
-  green:  #a3be8c;
-  yellow: #ebcb8b;
-  blue:   #81a1c1;
-  pink:   #b48ead;
-  cyan:   #88c0d0;
+  bg:     #1a1b26;
+  bg-alt: #24283b;
+  fg:     #a9b1d6;
+  red:    #f7768e;
+  green:  #9ece6a;
+  yellow: #e0af68;
+  blue:   #7aa2f7;
+  pink:   #9a7ecc;
+  cyan:   #4abaaf;
 
   background-color: @bg;
   text-color      : @fg;
@@ -52,7 +52,7 @@ prompt {
 }
 
 entry {
-  background-color: #3b4252;
+  background-color: @bg-alt;
   margin: 5px;
   padding: 12px;
   text-color: @blue;
