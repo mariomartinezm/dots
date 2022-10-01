@@ -20,44 +20,45 @@ xterm*VT100.Translations: #override \
     Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
 ! Font
-XTerm*faceName: UW Ttyp0
-XTerm*faceSize: 10
+XTerm*faceName: Cascadia Code PL
+XTerm*faceSize: 11
 
-!Colors
-#define nord0 #2E3440
-#define nord1 #3B4252
-#define nord2 #434C5E
-#define nord3 #4C566A
-#define nord4 #D8DEE9
-#define nord5 #E5E9F0
-#define nord6 #ECEFF4
-#define nord7 #8FBCBB
-#define nord8 #88C0D0
-#define nord9 #81A1C1
-#define nord10 #5E81AC
-#define nord11 #BF616A
-#define nord12 #D08770
-#define nord13 #EBCB8B
-#define nord14 #A3BE8C
-#define nord15 #B48EAD
+! tokyonight theme
+*foreground: #a9b1d6
+*background: #1a1b26
+*cursorColor: #a9b1d6
 
-*.foreground:   nord4
-*.background:   nord0
-*.cursorColor:  nord4
+! terminal padding color
+*borderColor: #1a1b26
 
-*.color0: nord1
-*.color1: nord11
-*.color2: nord14
-*.color3: nord13
-*.color4: nord9
-*.color5: nord15
-*.color6: nord8
-*.color7: nord5
-*.color8: nord3
-*.color9: nord11
-*.color10: nord14
-*.color11: nord13
-*.color12: nord9
-*.color13: nord15
-*.color14: nord7
-*.color15: nord6
+! black
+*color0: #1a1b26
+*color8: #4e5173
+
+! red
+*color1: #F7768E
+*color9: #F7768E
+
+! green
+*color2: #9ECE6A
+*color10: #9ECE6A
+
+! yellow
+*color3: #E0AF68
+*color11: #E0AF68
+
+! blue
+*color4: #7AA2F7
+*color12: #7AA2F7
+
+! magenta
+*color5: #9a7ecc
+*color13: #9a7ecc
+
+! cyan
+*color6: #4abaaf
+*color14: #4abaaf
+
+! white
+*color7: #acb0d0
+*color15: #acb0d0
