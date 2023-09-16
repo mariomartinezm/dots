@@ -1,5 +1,5 @@
 set window-title-basename "true"
-set selection-clipboard "clipboard"
+set selection-clipboard clipboard
 
 map <C-i> recolor
 
