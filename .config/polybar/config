@@ -24,7 +24,7 @@ font-3 = MaterialIcons:size=11:style=Regular;4
 
 modules-left   = ewmh
 modules-center = xwindow
-modules-right  = xbacklight memory battery pulseaudio time
+modules-right = backlight memory battery pulseaudio time
 
 tray-position   = right
 tray-detached   = false
@@ -67,8 +67,10 @@ label-foreground = ${colors.foreground}
 label-background = ${colors.background}
 label-padding    = 2
 
-[module/xbacklight]
-type = internal/xbacklight
+[module/backlight]
+type                  = internal/backlight
+card                  = acpi_video0
+use-actual-brightness = true
 
 ramp-0 = ""
 ramp-1 = ""
