@@ -20,8 +20,8 @@ xterm*VT100.Translations: #override \
     Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
 ! Font
-XTerm*faceName: UW Ttyp0
-XTerm*faceSize: 10
+XTerm*faceName: JetBrains Mono
+XTerm*faceSize: 11
 
 *.foreground  :#777575
 *.background  :#f9f9f9
