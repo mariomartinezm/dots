@@ -20,7 +20,7 @@ xterm*VT100.Translations: #override \
     Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
 ! Font
-XTerm*faceName: Cascadia Code PL
+XTerm*faceName: JetBrains Mono
 XTerm*faceSize: 11
 
 ! tokyonight theme
