@@ -118,13 +118,16 @@ format-full-padding    = 1
 [module/volume]
 type = internal/alsa
 
-label-volume             = VOL %percentage%
-format-volume            = <label-volume>
+label-muted   = ""
+ramp-volume-0 = ""
+ramp-volume-1 = ""
+ramp-volume-2 = ""
+
+format-volume            = <ramp-volume>
 format-volume-background = ${xrdb:color0:#222}
 format-volume-foreground = ${xrdb:foreground:#222}
 format-volume-padding    = 1
 
-label-muted             = MUTED
 format-muted-background = ${xrdb:color1:#222}
 format-muted-foreground = ${xrdb:background:#222}
 format-muted-padding    = 1
