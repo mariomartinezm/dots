@@ -79,8 +79,13 @@ type                  = internal/backlight
 card                  = acpi_video0
 use-actual-brightness = true
 
+ramp-0 = ""
+ramp-1 = ""
+ramp-2 = ""
+ramp-3 = ""
+
 label             = %percentage%%
-format            = <label>
+format            = <ramp> <label>
 format-foreground = ${xrdb:background:#222}
 format-background = ${xrdb:color6:#222}
 format-padding    = 2
