@@ -70,7 +70,7 @@ icon-9 = "9;"
 [module/xwindow]
 type             = internal/xwindow
 label            = %title:0:40:...%
-label-foreground = ${colors.color4}
+label-foreground = ${colors.foreground}
 label-background = ${colors.background}
 label-padding    = 2
 
