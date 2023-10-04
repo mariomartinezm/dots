@@ -169,11 +169,10 @@ click-right              = pavucontrol
 
 [module/time]
 type     = internal/date
-time     = "%H:%M"
-date     = "%b %d"
+date     = "%H:%M"
+date-alt = "%b %d"
 interval = 10
 
-label             = %date%, %time%
 format-foreground = ${xrdb:background:#222}
 format-background = ${xrdb:color6:#222}
 format-padding    = 1
