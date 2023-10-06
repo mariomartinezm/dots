@@ -18,7 +18,6 @@ color5         = ${xrdb:XTerm*color5}
 color6         = ${xrdb:XTerm*color6}
 
 [bar/main]
-monitor = "LVDS1"
 width = 100%
 height = 30
 offset-x = 0%
