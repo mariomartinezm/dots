@@ -33,7 +33,7 @@ background = ${colors.background}
 
 modules-left = ewmh
 modules-center = xwindow
-modules-right = xbacklight memory battery volume time
+modules-right = backlight memory battery volume time
 
 tray-position    = right
 tray-detached    = false
@@ -92,8 +92,10 @@ format-foreground = ${colors.color6}
 format-background = ${colors.background}
 format-padding = 1
 
-[module/xbacklight]
-type = internal/xbacklight
+[module/backlight]
+type                  = internal/backlight
+card                  = acpi_video0
+use-actual-brightness = true
 
 ramp-0 = ""
 ramp-1 = ""
@@ -151,6 +153,23 @@ label-muted = ""
 
 ramp-volume-0 = ""
 ramp-volume-1 = ""
+
+[module/pulseaudio]
+type                     = internal/pulseaudio
+interval                 = 5
+
+label-volume             = VOL %percentage%
+format-volume            = <label-volume>
+format-volume-background = ${xrdb:color0:#222}
+format-volume-foreground = ${xrdb:foreground:#222}
+format-volume-padding    = 1
+
+label-muted              = MUTED
+format-muted-background  = ${xrdb:color1:#222}
+format-muted-foreground  = ${xrdb:background:#222}
+format-muted-padding     = 1
+
+click-right              = pavucontrol
 
 [module/time]
 type = internal/date
