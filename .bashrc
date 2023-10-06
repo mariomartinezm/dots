@@ -13,3 +13,4 @@ export EDITOR='vim'
 export VISUAL='vim'
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export R_LIBS_USER="${HOME}/.R/library/"
+export DATASETS="${HOME}/Documents/Datasets/"
