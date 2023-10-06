@@ -28,7 +28,7 @@ font-1 = Siji:pixelsize=10;2
 
 modules-left   = ewmh
 modules-center = xwindow
-modules-right  = xbacklight memory battery volume time
+modules-right = backlight memory battery volume time
 
 tray-position   = right
 tray-detached   = false
@@ -72,8 +72,10 @@ label-foreground = ${colors.color4}
 label-background = ${colors.background}
 label-padding    = 2
 
-[module/xbacklight]
-type = internal/xbacklight
+[module/backlight]
+type                  = internal/backlight
+card                  = acpi_video0
+use-actual-brightness = true
 
 ramp-0 = ""
 ramp-1 = ""

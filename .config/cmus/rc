@@ -1,0 +1,26 @@
+set output_plugin=alsa
+set dsp.alsa.device=default
+set mixer.alsa.device=default
+set mixer.alsa.channel=Master
+
+set color_win_sel_bg=6
+set color_win_sel_fg=0
+
+set color_win_title_bg=6
+set color_win_title_fg=0
+
+set color_trackwin_album_bg=-1
+set color_trackwin_album_fg=6
+
+set color_win_cur_sel_bg=6
+set color_win_cur_sel_fg=0
+
+set color_win_cur=3
+
+set color_titleline_bg=6
+set color_titleline_fg=0
+
+set color_statusline_bg=7
+set color_statusline_fg=0
+
+set color_separator=6
