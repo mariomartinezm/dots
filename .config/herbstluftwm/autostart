@@ -24,7 +24,7 @@ xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1 &
 setxkbmap latam
 ~/.fehbg &
 pkill picom 
-picom -C -b --config ~/.config/picom/picom.conf
+picom -b --config ~/.config/picom/picom.conf
 pkill polybar
 polybar main &
 sct 5000
