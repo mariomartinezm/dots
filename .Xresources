@@ -24,40 +24,23 @@ XTerm*faceName: Maple Mono
 XTerm*faceSize: 12
 
 !Colors
-#define nord0 #2E3440
-#define nord1 #3B4252
-#define nord2 #434C5E
-#define nord3 #4C566A
-#define nord4 #D8DEE9
-#define nord5 #E5E9F0
-#define nord6 #ECEFF4
-#define nord7 #8FBCBB
-#define nord8 #88C0D0
-#define nord9 #81A1C1
-#define nord10 #5E81AC
-#define nord11 #BF616A
-#define nord12 #D08770
-#define nord13 #EBCB8B
-#define nord14 #A3BE8C
-#define nord15 #B48EAD
+*.foreground:   #c5cdd9
+*.background:   #2b2d37
+*.cursorColor:  #c5cdd9
 
-*.foreground:   nord4
-*.background:   nord0
-*.cursorColor:  nord4
-
-*.color0: nord1
-*.color1: nord11
-*.color2: nord14
-*.color3: nord13
-*.color4: nord9
-*.color5: nord15
-*.color6: nord8
-*.color7: nord5
-*.color8: nord3
-*.color9: nord11
-*.color10: nord14
-*.color11: nord13
-*.color12: nord9
-*.color13: nord15
-*.color14: nord7
-*.color15: nord6
+*.color0:   #2b2d37
+*.color8:   #2b2d37
+*.color1:   #ec7279
+*.color9:   #ec7279
+*.color2:   #a0c980
+*.color10:  #a0c980
+*.color3:   #deb974
+*.color11:  #deb974
+*.color4:   #6cb6eb
+*.color12:  #6cb6eb
+*.color5:   #d38aea
+*.color13:  #d38aea
+*.color6:   #5dbbc1
+*.color14:  #5dbbc1
+*.color7:   #c5cdd9
+*.color15:  #c5cdd9
